@@ -25,8 +25,9 @@ class Time {
 
   System.out.println("Number of seconds remaining in the day: " + sec_left_in_day);
 
-  System.out.println("Percentage of day that has passed " + percent_of_day_passed);
+  System.out.printf("Percentage of day that has passed: %.2f ", percent_of_day_passed);
 
+  System.out.println();
   System.out.println("Time elapsed since starting this exercise: " + time_of_exercise + " seconds");
 
   
