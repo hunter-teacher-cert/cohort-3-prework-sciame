@@ -7,12 +7,12 @@ class Guess {
   int D;
 
   Random random = new Random();
-  int number = random.nextInt(1) +1;
+  int number = random.nextInt(100) +1;
   System.out.println(number);
    
   Scanner in = new Scanner(System.in);
 
-  System.out.print("Guess a number between 1 and 100, inclusive.\nType a number: ");
+  System.out.print("Guess a number between 1 and 100, inclusive.\nThink of a number...type the number: ");
   userin = in.nextInt();
   //include the following line after entering an int variable into the Scanner
   in.nextLine(); 
@@ -26,7 +26,7 @@ class Guess {
   
   System.out.println("\nThe difference between you and the computer is: " + D);
   if(number==userin){
-    System.out.println("\nNIIIIIIIIIIIICCCCCCCCE!!!!!!");
+    System.out.println("\nNIIIIIIIIIIIICCCCCCCCE!!!!!!\n");
   }
 
 }
