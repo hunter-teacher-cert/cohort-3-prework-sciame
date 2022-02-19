@@ -34,7 +34,7 @@ public static void baffle() {
 }
 
 public static void ping() {
-//***7 "." is concatenated with the previou string so it now reads: No, I wug. 
+//***7 "." is concatenated with the previou string so it now reads: No, I wug. and after the "." a new line is then created because of the ln at the end of println
     System.out.println(".");
 }
 
