@@ -8,7 +8,8 @@ class Guess {
 
   Random random = new Random();
   int number = random.nextInt(100) +1;
-  System.out.println(number);
+  //I commented the next line out after testing the win scenario...
+  //System.out.println(number);
    
   Scanner in = new Scanner(System.in);
 
@@ -16,8 +17,6 @@ class Guess {
   userin = in.nextInt();
   //include the following line after entering an int variable into the Scanner
   in.nextLine(); 
-
-
 
   System.out.println("Your guess is: " + userin + "\nThe computer generated: " + number);     
  
