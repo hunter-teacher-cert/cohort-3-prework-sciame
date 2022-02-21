@@ -19,7 +19,7 @@ zoop | fred["breakfast "] bob[4]
 complete output:
 ===================
 /*
-I added the '\n' to specify where the new line breaks are when System.out.println() us used
+I added the '\n' to specify where the new line breaks are when System.out.println() is used
 */
 
 just for \n
