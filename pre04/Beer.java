@@ -16,7 +16,7 @@ public static void countdown(int n) {
 
 
 public static void main(String[] args) {
-    countdown(-4);
+    countdown(99);
 }
 
 
