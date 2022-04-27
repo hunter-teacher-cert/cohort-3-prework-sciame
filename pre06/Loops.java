@@ -3,21 +3,18 @@ import java.util.*;
 
 public class Loops {
 
+public static double squareRoot(double a, double x, double x1) {
+    do {
+      x=x1;  
+      x1 = (x+(a/x)) / 2;
+        
+      } while (Math.abs(x-x1)>0.0001); 
+  return x1;
+}
 
 public static void main(String[] args) {
-    loop(10);
+    System.out.println(squareRoot(81, 40, 40));
+  
 }
-
-public static void loop(int n) {
-    int i = n;
-    while (i > 1) {
-      System.out.println(i);
-      if (i % 2 == 0) {
-         i = i / 2;
-      } else {
-         i = i + 1;
-      }
-    }
-}
-	
+  
 }
